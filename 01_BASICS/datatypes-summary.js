@@ -37,7 +37,31 @@ console.log("hello world");
 console.log(23)
 }
 
-console.log(typeof func);
-console.log(typeof bigNumber);
-console.log(typeof outsideTemp);
+// console.log(typeof func);
+// console.log(typeof bigNumber);
+// console.log(typeof outsideTemp);
 
+//============================================================================
+
+// Two types of memory storage - Stack (primitive ) , heap (non primitive)
+ 
+// stack - 
+let MyName="baljeet"
+let AnotherName=MyName
+AnotherName="aviral"
+
+// console.table([MyName, AnotherName])
+
+// let obj={
+//     name : "baljeet",
+//     email : "baljeet342@gmail.com"
+// }
+
+// let obj2=obj
+// obj2.name="aviral"
+// obj2.email="bhbhafdv@gmail.com"
+
+// console.table([obj, obj2])
+
+// Heap acts as a reference while Stack acts as a copy 
+// changin heap value changes entire reference where as changing stack value changes merely the created copy
