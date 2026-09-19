@@ -23,6 +23,7 @@ const myObj = {
 // console.log(myObj[NewSym])
 
 // console.log(typeof myObj[NewSym])
+// console.log(myObj);
 
 // Object.freeze(myObj)
 // myObj.name = "nsnjbea"

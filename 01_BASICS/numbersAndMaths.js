@@ -1,15 +1,17 @@
     //    NUMBER FUNCTIONS 
 
 
-// const score = 400
+const score = 400
 // console.log(score.toString());
+// console.log(String(score));
 // console.log(typeof score.toString());
+// console.log(typeof String(score));
 
-// const balance=10000000.462965234
-// console.log(balance.toPrecision(13));
+const balance=10000000.462965234
+console.log(balance.toPrecision(11));
 
-// console.log(balance.toLocaleString());
-// console.log(balance.toLocaleString('en-IN'));
+console.log(balance.toLocaleString());
+console.log(balance.toLocaleString('en-IN'));
 
 
 
@@ -33,7 +35,7 @@
 // console.log(Math.ceil(4.2))
 // console.log(Math.floor(5.9))
 
-console.log(Math.random())
+// console.log(Math.random())
 console.log(Math.floor(Math.random()*10+1))
 
 const max = 25

@@ -36,6 +36,7 @@ const func=function()
 console.log("hello world");
 console.log(23)
 }
+// console.log(func());
 
 // console.log(typeof func);
 // console.log(typeof bigNumber);
