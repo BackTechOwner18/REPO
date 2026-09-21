@@ -74,9 +74,39 @@ const random = [ //random is an array comprising of objects
 // console.log(random[9])
 // console.log(typeof random[9])
 
-console.log(Object.keys(newObj))
-console.log(Object.values(newObj))
-console.log(Object.entries(newObj))
-console.log(newObj.hasOwnProperty('email'));
-console.log(newObj.hasOwnProperty('emailId'));
+// console.log(Object.keys(newObj))
+// console.log(Object.values(newObj))
+// console.log(Object.entries(newObj))
+// console.log(newObj.hasOwnProperty('email'));
+// console.log(newObj.hasOwnProperty('emailId'));
 
+
+// ================================================================
+
+// Destructuring of objects 
+const course = {
+    courseName : "javascript in hindi",
+    coursePrice : "999",
+    courseInstructor: "hitesh"
+}
+
+// console.log(course.price); normal method
+
+const {coursePrice: price} = course //destructuring 
+console.log(price);
+
+// Basic API knowledge 
+
+// {
+//     name : "smthing",
+//     id : 355234263 ,
+//     isLoggedInorNot : true ,
+//     anything : 245524
+// 
+
+// [
+
+// {},
+// {},
+// {},
+// ]
