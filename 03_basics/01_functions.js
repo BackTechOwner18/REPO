@@ -44,22 +44,22 @@ if(!username) // can also be written as if(username === undefined)
 //===================================================================================
 // next lecture 
 
-// function calculateCartPrice(...num1)    //... is a rest operator here
-// {
-//     return num1
-// }
+function calculateCartPrice(...num1)    //... is a rest operator here
+{
+    return num1
+}
 // console.log(calculateCartPrice())    //stores values in arrays because of ...(rest operator)
 // console.log(calculateCartPrice("1",34 , [1,3,4,3,4]))   //['1',34,[1,3,4,3,4]]
 // console.log(calculateCartPrice(1,3,342))    //[1,3,342]
 
 
-// function calculateCartPrice2(val1,val2,...num1)    //... is a rest operator here
-//         {
-//             return num1
-//         }
-//         console.log(calculateCartPrice())   
+function calculateCartPrice2(val1,val2,...num1)    //... is a rest operator here
+        {
+            return num1
+        }
+        // console.log(calculateCartPrice())   
 //         console.log(calculateCartPrice("1",34 , [1,3,4,3,4]))   //returns only third value and after it as val1 = first value and val2=2nd value
-//         console.log(calculateCartPrice(1,3,342))    //returns only 342 
+        console.log(calculateCartPrice2(1,3,342))    //returns only 342 
 
 const Object1 = {
     username : "baljeet singh",

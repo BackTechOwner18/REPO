@@ -36,19 +36,19 @@ var c= 30
 // }
 //  one()
 
-//  if (true)
-// {
-//     let username = "baljeet singh"
-//     function inside ()
-//     {
-//         username = " is a student"
-//         console.log(username);     //no error
-//     }
-//     console.log(username);       //gives error
-//     inside()
-//     console.log(username);       //gives error
+ if (true)
+{
+    let username = "baljeet singh"
+    function inside ()
+    {
+        username = " is a student"
+        console.log(username);     //no error
+    }
+    console.log(username);       //gives error
+    inside()
+    console.log(username);       //gives error  //VALUE OF USERNAME UPDATED
     
-// }
+}
 
 
 // ===================== hoisting basics ==================================
